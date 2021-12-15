@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#112233"
+    android:weightSum="1"
+    tools:context=".ComoJugar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="Explicacion"
+        android:textSize="50sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="#158988"
+        android:layout_margin="20sp"
+        android:id="@+id/spinner"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:layout_margin="20sp"
+        android:background="#99ccff"
+        android:id="@+id/scroll_view">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Seleccione una opcion para explicarla"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:id="@+id/texto_scroll" />
+
+    </ScrollView>
+
+</LinearLayout>

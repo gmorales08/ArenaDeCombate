@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ActionBarCustom"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:orientation="vertical"
+    tools:context=".CreacionPersonaje">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:hint="Nombre de tu personaje"
+        android:id="@+id/texto_nombre_crear" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:text="Raza"
+        android:textSize="30sp"
+        android:id="@+id/boton_elegir_raza" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:text="Clase"
+        android:textSize="30sp"
+        android:id="@+id/boton_elegir_clase" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:text="Arma"
+        android:textSize="30sp"
+        android:id="@+id/boton_elegir_arma" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:text="CREAR"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:id="@+id/boton_crear_personaje" />
+
+</LinearLayout>

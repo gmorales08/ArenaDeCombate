@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_opcion_personaje_aleatorio"
+        android:title="Generar personaje aleatorio"
+        android:icon="@drawable/dado2"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_restablecer_campos"
+        android:title="Restablecer campos"
+        android:icon="@drawable/reset"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_cancelar_creacion"
+        android:title="Cancelar creacion"
+        android:icon="@drawable/salir"
+        app:showAsAction="always"/>
+
+</menu>
